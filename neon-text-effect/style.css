@@ -1,7 +1,13 @@
 body {
-  background: url("/brick-wall.jpg") no-repeat center center fixed;
+  font-family: "Great Vibes", cursive;
+
+  background-image: linear-gradient(
+      222deg,
+      rgba(0, 24, 46, 0.829),
+      rgba(22, 8, 87, 0.5)
+    ),
+    url("/brick-wall.jpg");
   background-size: cover;
-  background: linear-gradient();
 }
 
 .container {
@@ -9,4 +15,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+  margin: 0;
 }
