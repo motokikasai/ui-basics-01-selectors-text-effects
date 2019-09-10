@@ -13,3 +13,14 @@ img {
 img[alt=""] {
   border: solid 2px pink;
 }
+
+a[target="_blank"] {
+  font-weight: bold;
+  text-decoration: underline dotted;
+  color: rebeccapurple;
+}
+
+a:not([target="_blank"]) {
+  font-weight: bold;
+  color: orange;
+}
