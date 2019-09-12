@@ -1,12 +1,12 @@
 # Selectors
 
-[] Select all the images without `alt` attribute and
+[x] Select all the images without `alt` attribute and
 give them a pink border with `2px` thickness
 
-[] Select all links that lead to an external resource and
+[x] Select all links that lead to an external resource and
 make them bold, dotted underline and `rebeccapurple` color
 
-[] Select all links that are internal and make them bold and `orange`
+[x] Select all links that are internal and make them bold and `orange`
 
 [] Make nested lists to get smaller in size compared to their immediate parent
 
